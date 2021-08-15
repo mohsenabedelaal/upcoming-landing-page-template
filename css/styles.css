@@ -416,7 +416,7 @@ input[type="checkbox"] {
 /*************************/
 /*     Media Queries     */
 /*************************/
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .header .social-container {
     right: 0;
     bottom: 1rem;
@@ -427,7 +427,8 @@ input[type="checkbox"] {
     overflow-x: hidden;
   }
   .footer-copyright-fa-stack {
-    right: 20%;
+    display: contents;
+    right: none !important;
   }
 }
 
