@@ -409,9 +409,28 @@ input[type="checkbox"] {
   font-size: small;
 }
 
+.col-background {
+  background-color: #66023c;
+}
+
 /*************************/
 /*     Media Queries     */
 /*************************/
+@media (max-width: 500px) {
+  .header .social-container {
+    right: 0;
+    bottom: 1rem;
+    left: 0;
+    position: relative;
+  }
+  * {
+    overflow-x: hidden;
+  }
+  .footer-copyright-fa-stack {
+    right: 20%;
+  }
+}
+
 /* Min-width 768px */
 @media (min-width: 768px) {
   /* General Styles */
